@@ -4,7 +4,8 @@ import App from './src/App'
 
 
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
