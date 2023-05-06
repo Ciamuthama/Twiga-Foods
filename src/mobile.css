@@ -161,4 +161,18 @@
     background-repeat: no-repeat;
     height: 100vh;
   }
+
+  .slick-dots li button:before {
+    font-size: 25px;
+    line-height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    content: "•";
+    text-align: center;
+    opacity: 0;
+    color: rgb(28 28 83);
+  }
 }
