@@ -1,14 +1,7 @@
-import vendoronphone from "./desktop/vendor-on-phone.jpg";
-import vendoropenlate from "./desktop/vendor-open-late.jpg";
-import vendorshowphone from "./desktop/vendor-show-phone.jpg";
-import delivery from "./desktop/delivery-to-vendor.jpg";
-import relax from "./desktop/relax-at-home.jpg";
-import search from "./desktop/search-and-go.jpg";
-import sokobot from "./desktop/soko-bot.jpg";
 import Slider from "react-slick";
 import "./styles.css";
 import "./landingpage.css";
-import './mobile.css';
+import "./mobile.css";
 
 export default function LandingPage() {
   const setting = {
@@ -18,7 +11,7 @@ export default function LandingPage() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    edgeFriction:0,
+    edgeFriction: 0,
   };
 
   return (
@@ -199,16 +192,7 @@ export default function LandingPage() {
       </div>
       <Slider {...setting}>
         <div>
-          <div
-            style={{
-              width: "100%",
-              height: "100vh",
-              backgroundImage: `url(${vendoronphone})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              aspectRatio: "9/16",
-            }}
-          >
+          <div className="bgvphone">
             <div className="main">
               <div className="container">
                 <div className="details">
@@ -239,16 +223,7 @@ export default function LandingPage() {
         </div>
 
         <div>
-          <div
-            style={{
-              width: "100%",
-              height: "100vh",
-              backgroundImage: `url(${vendoropenlate})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              aspectRatio: "9/16",
-            }}
-          >
+          <div className="bgvlate">
             <div className="main">
               <div className="container">
                 <div className="details">
@@ -281,17 +256,7 @@ export default function LandingPage() {
         </div>
 
         <div>
-          <div
-            style={{
-              width: "100%",
-              height: "100vh",
-              listStyleType: "none",
-              backgroundImage: `url(${vendorshowphone})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              aspectRatio: "9/16",
-            }}
-          >
+          <div className="bgsphone">
             <div className="main">
               <div className="container">
                 <div className="details">
@@ -325,16 +290,7 @@ export default function LandingPage() {
         </div>
 
         <div>
-          <div
-            style={{
-              width: "100%",
-              height: "100vh",
-              backgroundImage: `url(${delivery})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              aspectRatio: "9/16",
-            }}
-          >
+          <div className="bgdelivery">
             <div className="main">
               <div className="container">
                 <div className="details">
@@ -367,22 +323,13 @@ export default function LandingPage() {
         </div>
 
         <div>
-          <div
-            style={{
-              width: "100%",
-              height: "100vh",
-              backgroundImage: `url(${relax})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              aspectRatio: "9/16",
-            }}
-          >
+          <div className="bgrelax">
             <div className="main">
               <div className="container">
                 <div className="details">
                   <h1>Introducing a whole new Soko Yetu experience </h1>
                   <hr />
-                  <h2>Relax @ Home!</h2>
+                  <h2>Relax @ Home</h2>
                   <p className="para-2">
                     Best price guaranteed for bulk home deliveries
                   </p>
@@ -409,22 +356,13 @@ export default function LandingPage() {
         </div>
 
         <div>
-          <div
-            style={{
-              width: "100%",
-              height: "100vh",
-              backgroundImage: `url(${search})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              aspectRatio: "9/16",
-            }}
-          >
+          <div className="bgsearch">
             <div className="main">
               <div className="container">
                 <div className="details">
                   <h1>Introducing a whole new Soko Yetu experience </h1>
                   <hr />
-                  <h2>Search and go!</h2>
+                  <h2>Search and go</h2>
                   <p className="para-2">
                     Easily navigate and search your favorite products
                   </p>
@@ -451,16 +389,7 @@ export default function LandingPage() {
         </div>
 
         <div>
-          <div
-            style={{
-              width: "100%",
-              height: "100vh",
-              backgroundImage: `url(${sokobot})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              aspectRatio: "9/16",
-            }}
-          >
+          <div className="bgbot">
             <div className="main">
               <div className="container">
                 <div className="details">

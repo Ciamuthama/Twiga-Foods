@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-@media screen and (max-width:767px) {
-
-.main{
+@media screen and (max-width: 767px) {
+  .main {
     width: auto;
-    height: 96vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 10px;
     justify-content: flex-end;
-}
+  }
 
-.container{
+  .container {
     display: flex;
     width: 100%;
     position: relative;
@@ -26,26 +25,25 @@
     align-items: center;
     flex: 1 1 auto;
     justify-content: flex-end;
-}
+  }
 
-.details
-{
+  .details {
     width: 100%;
     padding-bottom: 2rem;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 0.25rem;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: "Poppins", sans-serif;
+  }
 
-hr{
+  hr {
     height: 0px;
     border-top: rgb(136 136 136);
     border-top-width: 1px;
     margin: 0;
-}
+  }
 
-h1 {
-    color: rgba(69,69,69);
+  h1 {
+    color: rgba(69, 69, 69);
     font-weight: 600;
     font-size: 0.75rem;
     line-height: 1rem;
@@ -53,45 +51,44 @@ h1 {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.5rem;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: "Poppins", sans-serif;
+  }
 
-
-h2{
+  h2 {
     font-size: 1.5rem;
     line-height: normal;
-    color: rgba(28,28,83);
+    color: rgba(28, 28, 83);
     font-weight: 700;
     padding-left: 1rem;
     padding-right: 1rem;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: "Poppins", sans-serif;
+  }
 
-.para-2, .para-3{
+  .para-2,
+  .para-3 {
     font-weight: 500;
-    color: rgba(136,136,136);
+    color: rgba(136, 136, 136);
     padding-left: 1rem;
     padding-right: 1rem;
     line-height: normal;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
+  }
 
-}
-
-.para-3{
+  .para-3 {
     line-height: normal;
-}
+  }
 
-.button-container{
-    background-color: rgba(254,207,10);
-    color: rgba(28,28,83);
+  .button-container {
+    background-color: rgba(254, 207, 10);
+    color: rgba(28, 28, 83);
     font-size: 100%;
     padding: 0.5rem 1rem;
     width: 100%;
     border-radius: 0.25rem;
     gap: 0.5rem;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     border: none;
     display: flex;
     -webkit-box-align: center;
@@ -102,10 +99,66 @@ h2{
     margin-left: 1rem;
     margin-right: 1rem;
     line-height: 1.5rem;
-}
+  }
 
-.button-container svg{
+  .button-container svg {
     margin-left: 0.5rem;
-}
+  }
 
+  /*background images*/
+
+  .bgvphone {
+    background-image: url(./mobile/vendor-on-phone.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgvlate {
+    background-image: url(./mobile/vendor-open-late.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .bgsphone {
+    background-image: url(./mobile/vendor-show-phone.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgdelivery {
+    background-image: url(./mobile/delivery-to-vendor.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgrelax {
+    background-image: url(./mobile/relax-at-home.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgsearch {
+    background-image: url(./mobile/search-and-go.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgbot {
+    background-image: url(./mobile/soko-bot.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
 }

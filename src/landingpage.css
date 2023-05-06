@@ -1,57 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-
-.logo{
-    background-color: rgba(254,207,10);
-    padding-bottom: 0.3rem;
+.logo {
+  background-color: rgba(254, 207, 10);
+  padding-bottom: 0.3rem;
 }
 
-.logo svg{
-    margin-left: 0.5rem;
+.logo svg {
+  margin-left: 0.5rem;
 }
 
 /* slider css for desktop*/
-@media screen and (min-width:768px) {
-.slick-prev, .slick-next {
+@media screen and (min-width: 768px) {
+  .slick-prev,
+  .slick-next {
     bottom: 144px;
-}
+  }
 
-.slick-next {
+  .slick-next {
     right: -47rem;
-}
+  }
 
-.slick-next:before {
+  .slick-next:before {
     left: -42rem;
-}
+  }
 
-.slick-prev {
+  .slick-prev {
     left: -46.5rem;
-}
+  }
 
-.slick-prev:before {
+  .slick-prev:before {
     left: 42rem;
     position: relative;
-}
+  }
 
-.slick-dots{
-bottom: 148px;
-}
+  .slick-dots {
+    bottom: 148px;
+  }
 
-/* container css*/
+  /* container css*/
 
-
-    
-
-.main{
+  .main {
     width: 100%;
     height: 90vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
+  }
 
-.container
-{   
+  .container {
     display: flex;
     width: 450px;
     position: relative;
@@ -59,64 +55,63 @@ bottom: 148px;
     padding-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 0.25rem;
     flex-direction: column;
     align-items: flex-start;
+  }
 
-}
-
-hr{
+  hr {
     height: 0px;
     border-top: rgb(136 136 136);
     border-top-width: 1px;
     margin: 0;
-}
+  }
 
-h1 {
-    color: rgba(69,69,69);
+  h1 {
+    color: rgba(69, 69, 69);
     font-weight: 600;
     font-size: 0.75rem;
     line-height: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.5rem;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: "Poppins", sans-serif;
+  }
 
-
-h2{
+  h2 {
     font-size: 1.5rem;
     line-height: 0rem;
-    color: rgba(28,28,83);
+    color: rgba(28, 28, 83);
     font-weight: 700;
     padding-left: 1rem;
     padding-right: 1rem;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: "Poppins", sans-serif;
+  }
 
-.para-2, .para-3{
+  .para-2,
+  .para-3 {
     font-weight: 500;
-    color: rgba(136,136,136);
+    color: rgba(136, 136, 136);
     padding-left: 1rem;
     padding-right: 1rem;
     line-height: 1rem;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: "Poppins", sans-serif;
+  }
 
-.para-3{
+  .para-3 {
     line-height: normal;
-}
+  }
 
-.button-container{
-    background-color: rgba(254,207,10);
-    color: rgba(28,28,83);
+  .button-container {
+    background-color: rgba(254, 207, 10);
+    color: rgba(28, 28, 83);
     font-size: 100%;
     padding: 0.5rem 1rem;
     width: auto;
     border-radius: 0.25rem;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     border: none;
     display: flex;
     -webkit-box-pack: center;
@@ -125,10 +120,58 @@ h2{
     margin-left: 1rem;
     margin-right: 1rem;
     line-height: 1.5rem;
-}
+  }
 
-.button-container svg{
+  .button-container svg {
     margin-left: 0.5rem;
-}
+  }
 
+  /*background images*/
+  .bgvphone {
+    background-image: url(./desktop/vendor-on-phone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgvlate {
+    background-image: url(./desktop/vendor-open-late.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .bgsphone {
+    background-image: url(./desktop/vendor-show-phone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgdelivery {
+    background-image: url(./desktop/delivery-to-vendor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgrelax {
+    background-image: url(./desktop/relax-at-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgsearch {
+    background-image: url(./desktop/search-and-go.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+
+  .bgbot {
+    background-image: url(./desktop/soko-bot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
 }
