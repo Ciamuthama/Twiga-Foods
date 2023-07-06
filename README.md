@@ -1,5 +1,5 @@
 # Twiga Soko Yetu Clone
-`[![Twitter Follow](https://img.shields.io/twitter/follow/ciamuthama?style=social&logo=twitter)](https://twitter.com/ciamuthama)`
+[![Twitter Follow](https://img.shields.io/twitter/follow/ciamuthama?style=social&logo=twitter)](https://twitter.com/ciamuthama)
 
 Welcome to the Twiga Soko Yetu Clone project! This is a simple React project where I aimed to practice my understanding of React fundamentals, including importing components, libraries, and styles. The project consists of a carousel with different background images and containers in each slide, showcasing the benefits of Soko Yetu..
 
