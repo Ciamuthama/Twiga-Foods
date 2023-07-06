@@ -10,9 +10,9 @@ Welcome to the Twiga Soko Yetu Clone project! This is a simple React project whe
 
 
 ## 🎯 Project Goals
--Practice React fundamentals
--Learn how to import components, libraries, and styles in a React project
--Implement a carousel with dynamic content
+- Practice React fundamentals
+- Learn how to import components, libraries, and styles in a React project
+- Implement a carousel with dynamic content
 
 
 ## 🛠️ Installation
