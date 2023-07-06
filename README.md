@@ -20,19 +20,27 @@ Welcome to the Twiga Soko Yetu Clone project! This is a simple React project whe
 To run this project locally on your machine, please follow these steps:
 
 1. Clone the repository to your local machine using the following command:
-```git clone https://github.com/Ciamuthama/Twiga-Foods.git```
+```
+git clone https://github.com/Ciamuthama/Twiga-Foods.git
+```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
-```cd Twiga-Foods```
+```
+cd Twiga-Foods
+```
 
 3. Install the dependencies by running the following command:
 
-```npm install```
+```
+npm install
+```
 
 4. Start the development server:
 
-```npm run dev```
+```
+npm run dev
+```
 
 5. Open your browser and visit ```http://localhost:3000``` to see the application in action.
 
